@@ -16,6 +16,8 @@ Have fun!
 
 This function returns the velocity of the oscillator, given the time and current position (which is not used in this example).
 
+Why do we need the velocity of the oscillator? Because RK4 works with *derivatives*. If you want the position, you use the positions' derivative, which is velocity. If you wanted velocity, you would go with acceleration.
+
 `a` is for amplitude, `w` is for angular speed.
 
 In this case, `w` is calculated for one oscillation per
