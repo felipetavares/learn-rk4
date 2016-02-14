@@ -42,6 +42,7 @@ Output:
 
   * New value (position)
 
+
     rk4 = (t, y, h) ->
       k1 = v(t,       y)
       k2 = v(t + h/2, y + h/2*k1)
@@ -49,6 +50,7 @@ Output:
       k4 = v(t + h,   y + h*k3)
 
       y + h/6*(k1 + 2*k2 + 2*k3 + k4)
+
 
 ## Loop
 
