@@ -34,6 +34,7 @@ time unit (seconds in our example).
 This is the main RK4 solver.
 
 Input:
+
   * Current time
   * Current value (position)
   * Delta time (time increment)
@@ -42,6 +43,7 @@ Output:
 
   * New value (position)
 
+This is the core logic:
 
     rk4 = (t, y, h) ->
       k1 = v(t,       y)
@@ -50,7 +52,6 @@ Output:
       k4 = v(t + h,   y + h*k3)
 
       y + h/6*(k1 + 2*k2 + 2*k3 + k4)
-
 
 ## Loop
 
