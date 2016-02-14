@@ -37,7 +37,9 @@ Input:
   * Current time
   * Current value (position)
   * Delta time (time increment)
+
 Output:
+
   * New value (position)
 
     rk4 = (t, y, h) ->
