@@ -2,7 +2,7 @@
 
 Welcome to *Learn RK4*!
 
-Here we implement a very small and straigh-forward RK4 integrator.
+Here we implement a very small and straight-forward RK4 integrator.
 
 In our example, we are solving the motion of an harmonic oscillator.
 
