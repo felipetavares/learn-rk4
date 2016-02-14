@@ -4,7 +4,7 @@ Welcome to *Learn RK4*!
 
 Here we implement a very small and straight-forward RK4 integrator.
 
-In our example, we are solving the motion of an harmonic oscillator.
+In our example, we are solving the motion of a harmonic oscillator.
 
 This is written in [Literate CoffeeScript](http://coffeescript.org/#literate), so you can just clone the repo and execute with `coffee README.litcoffee`.
 
