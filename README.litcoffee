@@ -84,3 +84,7 @@ A final `setTimeout` to start the loop:
     setTimeout main, h*1000
 
 Yeah! It is **that** easy.
+
+# Stars are falling
+
+Did you find *Learn RK4* useful? Star!
