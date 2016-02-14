@@ -6,7 +6,7 @@ Here we implement a very small and straigh-forward RK4 integrator.
 
 In our example, we are solving the motion of an harmonic oscillator.
 
-This is written in Literate CoffeeScript, so you can just clone the repo and execute with `coffee README.litcoffee`.
+This is written in [Literate CoffeeScript](http://coffeescript.org/#literate), so you can just clone the repo and execute with `coffee README.litcoffee`.
 
 Have fun!
 
