@@ -68,7 +68,7 @@ Main loop:
     main = ->
       y = rk4 t, y, h
 
-Printing spaces, we add 11 to grant there will be no negative values:
+Printing spaces, we add 11 to make sure there will be no negative values:
 
       for space in [0..(Math.floor y+11)]
         process.stdout.write ' '
